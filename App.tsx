@@ -11,7 +11,10 @@ import { WebView } from 'react-native-webview';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 function App(): React.JSX.Element {
-  const DEPLOYED_APP_URL = 'https://datadog-sample-app.vercel.app/';
+  // const DEPLOYED_REACT_SDK_APP_URL = 'https://datadog-sample-app.vercel.app/';
+  // const DEPLOYED_WEB_SDK_APP_URL = 'https://agora-sample-web-sdk-app.vercel.app/';
+
+  const DEPLOYED_APP_URL = 'https://agora-sample-web-sdk-app.vercel.app/';
   console.log('DEPLOYED_APP_URL: ', DEPLOYED_APP_URL);
   const requestPermissions = async () => {
     try {
